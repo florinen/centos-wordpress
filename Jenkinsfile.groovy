@@ -1,8 +1,8 @@
 pipeline{
     agent any
     stages{
-        stage("run packer"{
+        stage("run packer"){
             sh "packer build image.json"
-        })
+        )
     }
 }
